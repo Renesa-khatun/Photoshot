@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{{"css/app.css"}}">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href={{asset("css/styles.css")}} rel="stylesheet" />
 </head>
@@ -37,16 +38,58 @@
     </div>
 </nav>
 <!-- Masthead-->
-<header class="masthead">
-    <div class="container">
 
-        <div class="masthead-heading text-uppercase">Photo shot</div>
-        <div class="masthead-subheading">Beauty of Captures</div>
-        <br>
-        <br>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#catagories">Click to Explore</a>
+{{--<header class="masthead">--}}
+{{--    <div class="container">--}}
+
+{{--        <div class="masthead-heading text-uppercase">Photo shot</div>--}}
+{{--        <div class="masthead-subheading">Beauty of Captures</div>--}}
+{{--        <br>--}}
+{{--        <br>--}}
+{{--        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#catagories">Click to Explore</a>--}}
+{{--    </div>--}}
+{{--</header>--}}
+
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/carrousal-pics/poly.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Test</h5>
+                <button type="button" class="btn btn-primary">Test</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/carrousal-pics/as.jpg" alt="Second slide">
+        </div>
+
     </div>
-</header>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 <!-- Services-->
 {{--<section class="page-section" id="services">--}}
 {{--    <div class="container">--}}
