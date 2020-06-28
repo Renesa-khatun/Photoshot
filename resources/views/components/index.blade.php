@@ -31,8 +31,23 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#catagories">Catagories</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{url('about')}}">About</a></li>
-
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{url('contact')}}">Contact</a></li>
+                @if(!auth()->check())
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('login')}}">Login</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('register')}}">Register</a></li>
+                @else
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="{{ route('logout') }}"
+                           onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();">
+                            {{ __('Logout') }}
+                         </a>
+                    </li>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+                @endif
             </ul>
         </div>
     </div>
