@@ -67,7 +67,7 @@ Route::get('/architectural', function () {
     return view('catagories.architectural');
 });
 
-Route::post('/contactData','ContactController@store')->name('contact');
+Route::post('/contact','ContactController@store')->name('contact');
 
 //---auth routes---
 Auth::routes();
