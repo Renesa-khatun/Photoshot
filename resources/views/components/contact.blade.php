@@ -42,34 +42,61 @@
             <h2 class="section-heading text-uppercase">Contact Us</h2>
             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
-        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+
+
+        <form action="{{route('contact')}}" method="post">
             <div class="row align-items-stretch mb-5">
                 <div class="col-md-6">
+
                     <div class="form-group">
-                        <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
-                        <p class="help-block text-danger"></p>
+                        <input type="text" name="name" class="form-control" placeholder="Your Name *" style="height: 92px" @error('name') is-invalid @enderror>
                     </div>
+
+                    @error('name')
+                        <div class="invalid-feedback d-block alert alert-danger" style="margin-top: -10px">
+                            {{$message}}
+                        </div>
+                    @enderror
+
                     <div class="form-group">
-                        <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
-                        <p class="help-block text-danger"></p>
+                        <input type="email" name="email" class="form-control" placeholder="Your Email *" style="height: 92px">
                     </div>
-                    <div class="form-group mb-md-0">
-                        <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
-                        <p class="help-block text-danger"></p>
+
+                    @error('email')
+                    <div class="invalid-feedback d-block alert alert-danger" style="margin-top: -10px">
+                        {{$message}}
                     </div>
+                    @enderror
                 </div>
+
                 <div class="col-md-6">
-                    <div class="form-group form-group-textarea mb-md-0">
-                        <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                        <p class="help-block text-danger"></p>
+                    <textarea name="message" id="" cols="30" rows="10" class="form-control" placeholder="Your Message *"></textarea>
+
+                    @error('message')
+                    <div class="invalid-feedback d-block alert alert-danger" style="">
+                        {{$message}}
                     </div>
+                    @enderror
                 </div>
+
             </div>
+
+            {{csrf_field()}}
+
             <div class="text-center">
                 <div id="success"></div>
-                <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit" >Send Message</button>
             </div>
         </form>
+
+
+        @if(session()->has('message'))
+            <div class="alert alert-success" style="height: 50px; margin-top: 10px">
+                <p style="text-align: center">{{session('message')}}</p>
+            </div>
+        @endif
+
+
     </div>
 </section>
 <!-- Footer-->

@@ -14,9 +14,11 @@
     <!-- Custom fonts for this template-->
     <link href={{asset('vendor/fontawesome-free/css/all.min.css')}} rel="stylesheet" type="text/css">
     <link href={{asset('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i')}} rel="stylesheet">
-
     <!-- Custom styles for this template-->
     <link href={{asset("css/sb-admin-2.min.css")}} rel="stylesheet">
+
+    <!-- Bootstrap table css  -->
+    <link href="{{asset('vendor/datatables/dataTables.bootstrap4.min.css')}}" rel="stylesheet">
 
 </head>
 
@@ -55,19 +57,7 @@
         </div>
 
         <!-- Nav Item - Pages Collapse Menu -->
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                <i class="fas fa-fw fa-cog"></i>
-                <span>Components</span>
-            </a>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Custom Components:</h6>
-                    <a class="collapse-item" href="buttons.html">Buttons</a>
-                    <a class="collapse-item" href="cards.html">Cards</a>
-                </div>
-            </div>
-        </li>
+        <x-items.components></x-items.components>
 
         <!-- Nav Item - Utilities Collapse Menu -->
         <li class="nav-item">
@@ -383,11 +373,15 @@
 <script src={{asset("vendor/jquery/jquery.min.js")}}></script>
 <script src={{asset("vendor/bootstrap/js/bootstrap.bundle.min.js")}}></script>
 
+
+
 <!-- Core plugin JavaScript-->
 <script src={{asset("vendor/jquery-easing/jquery.easing.min.js")}}></script>
 
 <!-- Custom scripts for all pages-->
 <script src={{asset("js/sb-admin-2.min.js")}}></script>
+
+@yield('scripts')
 
 </body>
 

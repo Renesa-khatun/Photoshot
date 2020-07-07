@@ -67,6 +67,8 @@ Route::get('/architectural', function () {
     return view('catagories.architectural');
 });
 
+Route::post('/contactData','ContactController@store')->name('contact');
+
 //---auth routes---
 Auth::routes();
 
@@ -77,6 +79,9 @@ Route::middleware('auth')->group(function (){
     Route::get('/admin',function (){
         return view('admin.index');
     });
+
+    Route::get('/admin/messages','ContactController@index')->name('messages');
+    Route::delete('/admin/messages/{id}/delete','ContactController@delete')->name('message.delete');
 
 });
 
