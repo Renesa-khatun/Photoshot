@@ -15,9 +15,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href={{asset("css/styles.css")}} rel="stylesheet" />
+    <link href={{asset("css/img.css")}} rel="stylesheet" />
+    <link href={{asset("css/app.css")}} rel="stylesheet" />
 </head>
 <body id="page-top">
 <!-- Navigation-->
+
+
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: black">
     <div class="container">
         {{--        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>--}}
@@ -34,6 +38,7 @@
         </div>
     </div>
 </nav>
+
 <!-- Masthead-->
 
 <!-- Services-->
@@ -44,20 +49,18 @@
 <section class="page-section" id="abstract">
 
     <div class="row">
-        <div class="col-4"><img  style="width: 400px; height: 400px" src="assets/img/catagories/abstract/ab2.jpg" class="img-thumbnail" alt=""></div>
-        <div class="col-4"><img  style="width: 400px; height: 400px" src="assets/img/catagories/abstract/ab3.jpg" class="img-thumbnail" alt=""></div>
-        <div class="col-4"><img  style="width: 400px; height: 400px" src="assets/img/catagories/abstract/ab4.jpg" class="img-thumbnail" alt=""></div>
+        <div class="col-md-4"><img src="assets/img/catagories/abstract/ab9.jpg" class="img-fluid img-thumbnail" alt=""></div>
+        <div class="col-md-4"><img src="assets/img/catagories/abstract/ab10.jpg" class="img-thumbnail img-fluid" alt=""></div>
+        <div class="col-md-4"><img src="assets/img/catagories/abstract/ab11.jpg" class="img-thumbnail img-fluid" alt=""></div>
     </div>
-    <div class="row-caption-subheading text-muted"> juhfdiuhfeihdf</div>
+    <div class="row-caption-subheading text-muted"> juhfdiuhfeihdf - R</div>
     <br>
 
     <div class="row">
-        <div class="col-4"><img  style="width: 400px; height: 400px" src="assets/img/catagories/abstract/ab1.jpg" class="img-thumbnail" alt=""></div>
-        <div class="col-4"><img  style="width: 400px; height: 400px" src="assets/img/catagories/abstract/ab5.jpg" class="img-thumbnail" alt=""></div>
-        <div class="col-4"><img  style="width: 400px; height: 400px" src="assets/img/catagories/abstract/ab6.jpg" class="img-thumbnail" alt=""></div>
+        <div class="col-md-4"><img src="assets/img/catagories/abstract/ab12.jpg" class="img-fluid img-thumbnail" alt=""></div>
+        <div class="col-md-4"><img src="assets/img/catagories/abstract/ab13.jpg" class="img-thumbnail img-fluid" alt=""></div>
+        <div class="col-md-4"><img src="assets/img/catagories/abstract/ab14.jpg" class="img-thumbnail img-fluid" alt=""></div>
     </div>
-
-
 
 
 </section>
