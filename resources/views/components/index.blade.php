@@ -28,7 +28,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#catagories">Catagories</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#catagories">Blog</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{url('about')}}">About</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{url('contact')}}">Contact</a></li>
@@ -151,7 +151,7 @@
 <section class="page-section bg-light" id="catagories">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">Catagories of Photoshot</h2>
+            <h2 class="section-heading text-uppercase">Blog of Photoshot</h2>
             <h3 class="section-subheading text-muted"> <div class="portfolio-hover-content"><i class="fas fa-camera fa-4x"></i></div></h3>
         </div>
         <div class="row">
@@ -162,7 +162,7 @@
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x"></i></div>
                         </div>
 
-                        <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/catagories/abstract/ab2.jpg" alt="" />
 
                     </a>
                     <div class="portfolio-caption">
@@ -177,7 +177,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" class="w-50 p-3" src="assets/img/catagories/nature/n3.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"><h3 style="color:#465349">Nature</h3></div>
@@ -191,7 +191,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/catagories/sports/sp2.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"><h3 style="color:#465349">Sports/Action</h3>
@@ -207,7 +207,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x" ></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" style="" src="assets/img/catagories/wild/w7.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"><h3 style="color:#465349">Wild Life</h3></div>
@@ -221,7 +221,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/catagories/b&w/b9.jpeg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"><h3 style="color:#465349">Black & White</h3></div>
@@ -235,7 +235,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/catagories/fashion/f6.png" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"><h3 style="color:#465349">Fashion</h3></div>
@@ -245,11 +245,11 @@
             </div>
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/catagories/adventure/ad7.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"><h3 style="color:#465349">Adventure</h3></div>
@@ -259,11 +259,11 @@
             </div>
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/catagories/potrait/pot1.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"><h3 style="color:#465349">Potrait</h3></div>
@@ -273,11 +273,11 @@
             </div>
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/catagories/architectural/ar10.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"><h3 style="color:#465349">Architectural</h3>
@@ -288,11 +288,11 @@
             </div>
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/catagories/candid/can6.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"><h3 style="color:#465349">Candid</h3></div>
@@ -302,13 +302,14 @@
             </div>
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal11">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/catagories/cityscape/city4.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
+
                         <div class="portfolio-caption-heading"><h3 style="color:#465349">Cityscape</h3></div>
                         <div class="portfolio-caption-subheading text-muted"></div>
                     </div>
@@ -317,11 +318,11 @@
 
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal12">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-camera fa-2x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/catagories/astro/as7.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"><h3 style="color:#465349">Astrography</h3>
@@ -400,42 +401,33 @@
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted"></h3>
         </div>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src={{asset("assets/img/team/1.jpg")}} alt="" />
-                    <h4>Kay Garland</h4>
-                    <p class="text-muted">Lead Designer</p>
+                    <img class="mx-auto rounded-circle" src={{asset("assets/img/team/bro.jpg")}} alt="" />
+                    <h4>Tahmid</h4>
+                    <p class="text-muted"></p>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src={{asset("assets/img/team/2.jpg")}} alt="" />
-                    <h4>Larry Parker</h4>
-                    <p class="text-muted">Lead Marketer</p>
+                    <img class="mx-auto rounded-circle" src={{asset("assets/img/team/me.jpg")}} alt="" />
+                    <h4>Renesa</h4>
+                    <p class="text-muted"></p>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src={{asset("assets/img/team/3.jpg")}} alt="" />
-                    <h4>Diana Petersen</h4>
-                    <p class="text-muted">Lead Developer</p>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+            <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></p></div>
         </div>
     </div>
 </section>
@@ -523,15 +515,10 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src={{asset("assets/img/portfolio/01-full.jpg")}} alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Threads</li>
-                                <li>Category: Illustration</li>
-                            </ul>
+                            <h2 class="text-uppercase">Abstract Photography</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img  class="col-sm-8" src={{asset("assets/img/catagories/abstract/ab2.jpg")}} alt="" />
+
 {{--                            <button class="btn btn-primary" data-dismiss="modal" type="button">--}}
 {{--                                <i class="fas fa-times mr-1"></i>--}}
 {{--                                Close Project--}}
@@ -555,22 +542,21 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Explore</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
+                            <h2 class="text-uppercase">Nature Photography</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" class="col-sm-8" src="assets/img/catagories/nature/n3.jpg" alt="" />
+{{--                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>--}}
+{{--                            <ul class="list-inline">--}}
+{{--                                <li>Date: January 2020</li>--}}
+{{--                                <li>Client: Explore</li>--}}
+{{--                                <li>Category: Graphic Design</li>--}}
+{{--                            </ul>--}}
 {{--                            <button class="btn btn-primary" data-dismiss="modal" type="button">--}}
 {{--                                <i class="fas fa-times mr-1"></i>--}}
 {{--                                Close Project--}}
 {{--                            </button>--}}
 
-                            <a href="{{url('nature')}}"   class="btn btn-primary" class="btn btn-info" role="button">Click Here to see more photos</a>
-                            <i class="fa fa-angle-right fa-1x" aria-hidden="true" style="color:#f5c71a "></i> <i class="fa fa-angle-right" aria-hidden="true" style="color:#f5c71a "></i>
+                            <a href="{{url('nature')}}"   class="btn btn-primary" class="btn btn-info" role="button" style="color: white; background-color: #3d3e47">Click Here to see more photos</a>
 
                         </div>
                     </div>
@@ -589,16 +575,16 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Finish</li>
-                                <li>Category: Identity</li>
-                            </ul>
-                                <a href="{{url('sports')}}" class="btn btn-primary" class="btn btn-info" role="button">Link Button</a>
+                            <h2 class="text-uppercase">Sports/Action Photography</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" class="col-sm-6" src="assets/img/catagories/sports/sp2.jpg" alt="" />
+{{--                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>--}}
+{{--                            <ul class="list-inline">--}}
+{{--                                <li>Date: January 2020</li>--}}
+{{--                                <li>Client: Finish</li>--}}
+{{--                                <li>Category: Identity</li>--}}
+{{--                            </ul>--}}
+                                <a href="{{url('sports')}}" class="btn btn-primary" class="btn btn-info" role="button" style="color: white; background-color: #3d3e47">Click Here to see more photos</a>
 
                         </div>
                     </div>
@@ -617,20 +603,20 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
+                            <h2 class="text-uppercase">Wildlife Photography</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Lines</li>
-                                <li>Category: Branding</li>
-                            </ul>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/catagories/wild/w7.jpg" alt="" />
+{{--                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>--}}
+{{--                            <ul class="list-inline">--}}
+{{--                                <li>Date: January 2020</li>--}}
+{{--                                <li>Client: Lines</li>--}}
+{{--                                <li>Category: Branding</li>--}}
+{{--                            </ul>--}}
 {{--                            <button class="btn btn-primary" data-dismiss="modal" type="button">--}}
 {{--                                <i class="fas fa-times mr-1"></i>--}}
 {{--                                Close Project--}}
 {{--                            </button>--}}
-                            <a href="{{url('wild')}}" class="btn btn-primary" class="btn btn-info" role="button">Click Here to see more photos</a>
+                            <a href="{{url('wild')}}" class="btn btn-primary" class="btn btn-info" role="button" style="color: white; background-color: #3d3e47">Click Here to see more photos</a>
                         </div>
                     </div>
                 </div>
@@ -648,20 +634,20 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Southwest</li>
-                                <li>Category: Website Design</li>
-                            </ul>
+                            <h2 class="text-uppercase">Black & White Photography</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/catagories/b&w/b9.jpeg" alt="" />
+{{--                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>--}}
+{{--                            <ul class="list-inline">--}}
+{{--                                <li>Date: January 2020</li>--}}
+{{--                                <li>Client: Southwest</li>--}}
+{{--                                <li>Category: Website Design</li>--}}
+{{--                            </ul>--}}
 {{--                            <button class="btn btn-primary" data-dismiss="modal" type="button">--}}
 {{--                                <i class="fas fa-times mr-1"></i>--}}
 {{--                                Close Project--}}
 {{--                            </button>--}}
-                            <a href="{{url('bw')}}" class="btn btn-primary" class="btn btn-info" role="button">Click Here to see more photos</a>
+                            <a href="{{url('bw')}}"class="btn btn-primary" class="btn btn-info" role="button" style="color: white; background-color: #3d3e47">Click Here to see more photos</a>
                         </div>
                     </div>
                 </div>
@@ -679,20 +665,20 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Window</li>
-                                <li>Category: Photography</li>
-                            </ul>
+                            <h2 class="text-uppercase">Fashion Photography</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/catagories/fashion/f6.png" alt="" />
+{{--                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>--}}
+{{--                            <ul class="list-inline">--}}
+{{--                                <li>Date: January 2020</li>--}}
+{{--                                <li>Client: Window</li>--}}
+{{--                                <li>Category: Photography</li>--}}
+{{--                            </ul>--}}
 {{--                            <button class="btn btn-primary" data-dismiss="modal" type="button">--}}
 {{--                                <i class="fas fa-times mr-1"></i>--}}
 {{--                                Close Project--}}
 {{--                            </button>--}}
-                            <a href="{{url('fashion')}}" class="btn btn-primary" class="btn btn-info" role="button">Click Here to see more photos</a>
+                            <a href="{{url('fashion')}}" class="btn btn-primary" class="btn btn-info" role="button" style="color: white; background-color: #3d3e47">Click Here to see more photos</a>
                         </div>
                     </div>
                 </div>
@@ -701,7 +687,7 @@
     </div>
 </div>
 <!-- Modal 7-->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal"><img src={{asset("assets/img/close-icon.svg")}}/></div>
@@ -710,20 +696,20 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src={{asset("assets/img/portfolio/01-full.jpg")}} alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Threads</li>
-                                <li>Category: Illustration</li>
-                            </ul>
+                            <h2 class="text-uppercase">Adventure Photography</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src={{asset("assets/img/catagories/adventure/ad7.jpg")}} alt="" />
+{{--                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>--}}
+{{--                            <ul class="list-inline">--}}
+{{--                                <li>Date: January 2020</li>--}}
+{{--                                <li>Client: Threads</li>--}}
+{{--                                <li>Category: Illustration</li>--}}
+{{--                            </ul>--}}
 {{--                            <button class="btn btn-primary" data-dismiss="modal" type="button">--}}
 {{--                                <i class="fas fa-times mr-1"></i>--}}
 {{--                                Close Project--}}
 {{--                            </button>--}}
-                            <a href="{{url('adventure')}}" class="btn btn-primary" class="btn btn-info" role="button">Click Here to see more photos</a>
+                            <a href="{{url('adventure')}}"class="btn btn-primary"  class="btn btn-info" role="button" style="color: white; background-color: #3d3e47">Click Here to see more photos</a>
                         </div>
                     </div>
                 </div>
@@ -732,7 +718,7 @@
     </div>
 </div>
 <!-- Modal 8-->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -741,20 +727,20 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Explore</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
+                            <h2 class="text-uppercase">Potrait Photography</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" class="col-sm-6" src="assets/img/catagories/potrait/pot1.jpg" alt="" />
+{{--                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>--}}
+{{--                            <ul class="list-inline">--}}
+{{--                                <li>Date: January 2020</li>--}}
+{{--                                <li>Client: Explore</li>--}}
+{{--                                <li>Category: Graphic Design</li>--}}
+{{--                            </ul>--}}
 {{--                            <button class="btn btn-primary" data-dismiss="modal" type="button">--}}
 {{--                                <i class="fas fa-times mr-1"></i>--}}
 {{--                                Close Project--}}
 {{--                            </button>--}}
-                            <a href="{{url('potrait')}}" class="btn btn-primary" class="btn btn-info" role="button">Click Here to see more photos</a>
+                            <a href="{{url('potrait')}}"class="btn btn-primary" class="btn btn-info" role="button" style="color: white; background-color: #3d3e47">Click Here to see more photos</a>
                         </div>
                     </div>
                 </div>
@@ -763,7 +749,7 @@
     </div>
 </div>
 <!-- Modal 9-->
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -772,16 +758,16 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Finish</li>
-                                <li>Category: Identity</li>
-                            </ul>
-                            <a href="{{url('architectural')}}" class="btn btn-primary" class="btn btn-info" role="button">Link Button</a>
+                            <h2 class="text-uppercase">Architectural Photography</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" class="col-sm-6" src="assets/img/catagories/architectural/ar10.jpg" alt="" />
+{{--                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>--}}
+{{--                            <ul class="list-inline">--}}
+{{--                                <li>Date: January 2020</li>--}}
+{{--                                <li>Client: Finish</li>--}}
+{{--                                <li>Category: Identity</li>--}}
+{{--                            </ul>--}}
+                            <a href="{{url('architectural')}}" class="btn btn-primary" class="btn btn-info" role="button" style="color: white; background-color: #3d3e47">Click Here to see more photos</a>
 
                         </div>
                     </div>
@@ -791,7 +777,7 @@
     </div>
 </div>
 <!-- Modal 10-->
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -800,20 +786,20 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Lines</li>
-                                <li>Category: Branding</li>
-                            </ul>
+                            <h2 class="text-uppercase">Candid Photography</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" class="col-sm-6" src="assets/img/catagories/candid/can6.jpg" alt="" />
+{{--                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>--}}
+{{--                            <ul class="list-inline">--}}
+{{--                                <li>Date: January 2020</li>--}}
+{{--                                <li>Client: Lines</li>--}}
+{{--                                <li>Category: Branding</li>--}}
+{{--                            </ul>--}}
 {{--                            <button class="btn btn-primary" data-dismiss="modal" type="button">--}}
 {{--                                <i class="fas fa-times mr-1"></i>--}}
 {{--                                Close Project--}}
 {{--                            </button>--}}
-                            <a href="{{url('candid')}}"  class="btn btn-primary" class="btn btn-info" role="button">Click Here to see more photos</a>
+                            <a href="{{url('candid')}}"  class="btn btn-primary" class="btn btn-info" role="button" style="color: white; background-color: #3d3e47">Click Here to see more photos</a>
                         </div>
                     </div>
                 </div>
@@ -822,7 +808,7 @@
     </div>
 </div>
 <!-- Modal 11-->
-<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -831,20 +817,20 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Southwest</li>
-                                <li>Category: Website Design</li>
-                            </ul>
+                            <h2 class="text-uppercase">Cityscape Photography</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" class="col-sm-6" src="assets/img/catagories/cityscape/city4.jpg" alt="" />
+{{--                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>--}}
+{{--                            <ul class="list-inline">--}}
+{{--                                <li>Date: January 2020</li>--}}
+{{--                                <li>Client: Southwest</li>--}}
+{{--                                <li>Category: Website Design</li>--}}
+{{--                            </ul>--}}
 {{--                            <button class="btn btn-primary" data-dismiss="modal" type="button">--}}
 {{--                                <i class="fas fa-times mr-1"></i>--}}
 {{--                                Close Project--}}
 {{--                            </button>--}}
-                            <a href="{{url('city')}}" class="btn btn-primary" class="btn btn-info" role="button">Click Here to see more photos</a>
+                            <a href="{{url('city')}}" class="btn btn-primary" class="btn btn-info" role="button" style="color: white; background-color: #3d3e47">Click Here to see more photos</a>
                         </div>
                     </div>
                 </div>
@@ -853,7 +839,7 @@
     </div>
 </div>
 <!-- Modal 12-->
-<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -862,20 +848,20 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Window</li>
-                                <li>Category: Photography</li>
-                            </ul>
+                            <h2 class="text-uppercase">Astrography</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" class="col-sm-6" src="assets/img/catagories/astro/as7.jpg" alt="" />
+{{--                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>--}}
+{{--                            <ul class="list-inline">--}}
+{{--                                <li>Date: January 2020</li>--}}
+{{--                                <li>Client: Window</li>--}}
+{{--                                <li>Category: Photography</li>--}}
+{{--                            </ul>--}}
 {{--                            <button class="btn btn-primary" data-dismiss="modal" type="button">--}}
 {{--                                <i class="fas fa-times mr-1"></i>--}}
 {{--                                Close Project--}}
 {{--                            </button>--}}
-                            <a href="{{url('astrography')}}" class="btn btn-primary" class="btn btn-info" role="button">Click Here to see more photos</a>
+                            <a href="{{url('astrography')}}" class="btn btn-primary" class="btn btn-info" role="button" style="color: white; background-color: #3d3e47">Click Here to see more photos</a>
 
                         </div>
                     </div>
